@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family:"Quicksand"
+}
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    margin-top:0px ;
+    margin-left: 100px;
+
+    
+}
+
+
+
+.form_container {
+    max-width: 1000px;
+    max-height: 300px; 
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom:50px; 
+    padding: 20px; 
+    border: 1px solid #ffffff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+
+.list_container{
+    display: flex;
+    flex-direction: column; 
+    gap: 200px; 
+    padding: 20px; 
+    background-color: #f0e6e6;
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px; 
+    max-width: 1000px;
+    margin-left: 200px;
+    
+    
+  
+    
+}
+
+
+.button_container{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+
+.add_button{
+    
+    padding: 8px;
+    border: 1px solid #675f5f;
+    flex: 1 1 10%; 
+    min-width: 10px; 
+    background-color: rgb(67, 109, 247);
+    border-radius: 15px;
+    color: white;
+    border: none;
+    transition: background-color 1s ease 0s;
+}
+
+.add_button:hover{
+    background-color: rgb(17, 102, 11);
+    cursor: pointer;
+
+    
+    
+    
+}
+
+
+.status_ind{
+    padding: 10px;
+    
+    background-color: rgb(9, 140, 157);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    max-height: 50px;
+    transition: background-color 1s ease 0s;
+    
+}
+
+.status_ind:hover{
+    cursor: not-allowed;
+    background-color:rgb(63, 19, 164);
+    opacity: 0.6;
+
+}
+
+.due_p{
+    padding: 10px;
+    
+    background-color: rgb(97, 76, 234);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    max-height: 50px;
+    transition: background-color 1s ease 0s;
+}
+
+.due_p:hover{
+   background-color: rgb(0, 145, 255);
+   cursor: not-allowed;
+}
+
+ 

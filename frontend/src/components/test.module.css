@@ -1,0 +1,57 @@
+.cont{
+ 
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  background-color: rgb(251, 251, 239);
+  margin-left: 300px;
+  margin-top:100px;
+  margin-bottom: 200px;
+  margin-right: 300px;
+  border-radius: 20px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  
+  
+  
+  
+  
+}
+
+.todo_table{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 150px;
+  
+  
+  
+}
+.todo_tr{
+  display: flex;
+  gap: 50px;
+  
+}
+
+.todo_label{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button{
+  font-size: 18px;
+  margin-left: 50px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 20px;
+  background-color: blue;
+  padding: 10px;
+  color: white;
+  transition: background-color 1s ease 0s;
+
+}
+
+.button:hover{
+  background-color: rgb(17, 127, 5);
+}
+

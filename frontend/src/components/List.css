@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+ body{
+   
+    
+    font-family: "Quicksand";
+    
+    background: linear-gradient(90deg, rgba(255,255,255,1) 5%, rgba(226,202,65,1) 35%, rgba(119,210,228,1) 85%);
+  }
+
+  .title_todo{
+    margin-top: 30px;
+    margin-left: 600px;
+    color:  rgb(255, 255, 248);
+    font-weight: bold;
+  }
+  
+  
+  .link{
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(243, 243, 247);
+    
+    
+  }
+
+  .button_edit{
+    background-color: rgb(60, 104, 237);
+    border-radius: 20px;
+    border: none;
+    max-height: 50px;
+    padding: 15px;
+    transition: background-color 1s ease 0s;
+   
+  } 
+  .button_edit:hover{
+    background-color: blue;
+    cursor:pointer;
+  }
+
+  .button_delete{
+    background-color: rgb(249, 8, 8);
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+   color: white;
+   max-height: 50px;
+   transition: background-color 1s ease 0s;
+   
+  }
+
+  .button_delete:hover{
+    background-color: rgb(193, 24, 24);
+  }
+
+  .list_data{
+    font-size: 20px;
+    font-weight: bold;
+ 
+  
+  }
+
+  .list_label{
+    
+    color:rgb(2, 1, 1);
+    font-size: 18px;
+  }
+
+  .add_input{
+    border-radius: 8px;
+    border: none;
+  }
+
+  .add_date{
+    border-radius: 5px;
+    border: none;
+  }
+
+
+
+
+  
